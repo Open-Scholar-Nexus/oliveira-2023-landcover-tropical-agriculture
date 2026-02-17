@@ -1,69 +1,47 @@
 version: 1
 extends:
 - https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling/v0.1.0/nexus.yml
-- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/isp-micropublication-2025.yml
+- https://raw.githubusercontent.com/Open-Scholar-Nexus/oaktree-sapling-config/v0.1.0/climatematch-2023.yml
 
 project:
-  # Uncomment and fill when published
-  # doi: 10.5281/zenodo.XXXXXXX
-  # date: YYYY-MM-DD
+  doi: 10.5281/zenodo.11002004
+  date: 2024-04-20
   authors:
-  - name: Doe, J.
-    orcid: 0000-0000-0000-0001
+  - name: Sofia Corradi Oliveira
+    email: sofiacorradio@gmail.com
     affiliations:
-    - Department of Geosciences and Natural Resource Management, University of Copenhagen, Denmark
-    roles:
-    - Conceptualization
-    - Formal analysis
-    - Investigation
-    - Methodology
-    - Software
-    - Visualization
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Sharma, A.J.
-    orcid: 0000-0000-0000-0002
+    - Federal University of Minas Gerais, Brazil
+    orcid: 0000-0001-8644-9674
+    corresponding: true
+  - name: Andres Fernando Figueroa Curo
     affiliations:
-    - Department of Earth Sciences, Indian Institute of Technology Bombay, Mumbai, India
-    roles:
-    - Formal analysis
-    - Investigation
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Tanaka, S.
+    - National Agrarian University of La Molina
+    - Water Research and Technology Center (UTEC)
+    orcid: 0009-0008-4778-1381
+  - name: Manojna Polisetty
     affiliations:
-    - College of Urban and Environmental Sciences, Peking University, Beijing, China
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Vera Gutierrez, C.
+    - World Resource Institute India
+    orcid: 0009-0002-2666-5855
+  - name: Magnolia Song
     affiliations:
-    - Institute of Geology, Mining, and Metallurgy, Universidad Nacional Mayor de San Marcos, Lima, Peru
-    roles:
-    - Formal analysis
-    - Writing - original draft
-    - Writing - review & editing
-  - name: Ndlovu, T.
+    - Monash University
+    orcid: 0000-0003-4123-7170
+  - name: Daniela Velasquez Gushiken
     affiliations:
-    - Marine Research and Development, Oceanic Dynamics Ltd., Cape Town, South Africa
-    roles:
-    - Formal analysis
-    - Writing - review & editing
+    - National Agrarian University of La Molina
+    orcid: 0009-0002-0092-4599
+  - name: Maryann Alessandra Alata Chambilla
+    affiliations:
+    - National Agrarian University of La Molina
+    orcid: 0009-0002-0198-5553
 
   toc:
   - file: index.md
 
-  id: isp-micropublication-template
-  title: This is the title of our awesome micropublication
+  id: land-cover-change-tropical-agriculture
+  title: The influence of rapid agricultural expansion on land use and land cover changes in tropical Mato Grosso, Brazil
   keywords:
-  - keyword1
-  - keyword2
-  - keyword3
-  - keyword4
-  github: https://github.com/Open-Scholar-Nexus/isp-micropublication-template
-  bibliography:
-  - bib.bib
-  # downloads:
-  # - file: supplementary-material.zip
-  #   title: Supplementary Material
+  - Rainforest
+  - Surface Temperature
+  - Agricultural Impact
+  github: https://github.com/Open-Scholar-Nexus/oliveira-2023-landcover-tropical-agriculture
